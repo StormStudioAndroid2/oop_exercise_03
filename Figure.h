@@ -24,8 +24,7 @@ int IsRectangle(Point a, Point b, Point c, Point d);
 bool IsParallel(Point a, Point b, Point c, Point d);
 double length(Point left, Point right);
 class Figure {
-    protected:
-        std::vector<Point> points;
+    
     public:
         virtual double getSquare() = 0;
         virtual Point getCenter() = 0;

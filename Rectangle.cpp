@@ -1,4 +1,3 @@
-#pragma once
 
 #include "Rectangle.h"
  
@@ -12,23 +11,18 @@
     } else {
         throw std::logic_error("not rectangle");
     }
-        points.push_back(p1);
-        points.push_back(p2);
-    points.push_back(p3);
-    points.push_back(p4);
+    this->points[0] = p1;
+    this->points[1] = p2;
+    this->points[2] = p3;
+    this->points[3] = p4; 
     }
     double Rectangle::getSquare() {
-        double res = 0;
-	    for (unsigned i=0; i<this->points.size(); i++) {
-		Point p1 = i ? this->points[i-1] : this->points.back(),
-			p2 = this->points[i];
-		    res += (p1.x - p2.x * (p1.y + p2.y));
-	    }
+    
 	return length(this->points[0],this->points[1])*length(this->points[0],this->points[3]);
     }
             void Rectangle::print(std::ostream& os) const {
     os << "Rectangle p1: ";
-    for (int i = 0; i < this->points.size(); ++i) {
+    for (int i = 0; i < 4; ++i) {
         os << this->points[i] << "p" << i+1 <<" ";
     }
     os << std::endl;
@@ -44,8 +38,8 @@ Point Rectangle::getCenter()  {
     Point p;
     p.x = 0;
     p.y = 0;
-    for (int i = 0; i < points.size(); ++i) {
-        p = p+(points[i]/points.size());
+    for (size_t i = 0; i < 4; ++i) {
+        p = p+(points[i]/4);
     }
     return p;
 }

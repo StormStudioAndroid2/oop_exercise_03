@@ -3,8 +3,7 @@
 #include <vector>
 #include "Figure.h"
 class Rectangle: public Figure {
-    protected:
-        std::vector<Point> points;
+    private: Point points[4];
     public:
      Rectangle() = default;
         Rectangle(Point p1, Point p2, Point p3, Point p4);
