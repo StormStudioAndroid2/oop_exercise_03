@@ -57,7 +57,7 @@ int main() {
             std::cout << *figures[index] << "\n";
             std::cout << "Area: " << figures[index]->getSquare() << "\n";
         } else if (command == "4") {
-            int index;
+            size_t index;
             std::cin >> index;
             index--;
             if (index < 0 || index >= figures.size()) {
