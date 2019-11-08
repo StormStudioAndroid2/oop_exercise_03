@@ -38,7 +38,7 @@ int main() {
             std::cout << "Created figure\n";
             std::cout << *new_fig << "\n";
         } else if (command == "2") {
-            int index;
+            size_t index;
             std::cin >> index;
             index--;
             if (index < 0 || index >= figures.size()) {
@@ -47,7 +47,7 @@ int main() {
             }
             std::cout << "Figure at index " << index + 1 << " - " << *figures[index] << "\n";
         } else if (command == "3") {
-            int index;
+            size_t index;
             std::cin >> index;
             index--;
             if (index < 0 || index >= figures.size()) {
@@ -67,7 +67,7 @@ int main() {
             std::cout << *figures[index] << "\n";
             std::cout << "Center: " << figures[index]->getCenter() << "\n";
         } else if (command == "5") {
-            int index;
+            size_t index;
             std::cin >> index;
             index--;
             if (index < 0 || index >= figures.size()) {

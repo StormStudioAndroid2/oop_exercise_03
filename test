@@ -1,5 +1,5 @@
 #!/bin/bash
-prog="./oop_exercise_03"
+prog="./bin/oop_exercise_03"
 a=1
 
 for file in tests/test_??.test
