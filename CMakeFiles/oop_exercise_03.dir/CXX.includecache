@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.cpp
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+vector
+-
+numeric
+-
+iostream
+-
+vector
+-
+cmath
+-
+limits
+-
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Point.cpp
+numeric
+-
+iostream
+-
+vector
+-
+cmath
+-
+limits
+-
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rectangle.cpp
+Rectangle.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rectangle.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rectangle.h
+vector
+-
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rhombus.cpp
+Rhombus.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rhombus.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rhombus.h
+vector
+-
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Trapeze.cpp
+Trapeze.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Trapeze.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/Trapeze.h
+vector
+-
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+
+/home/sergey/Рабочий стол/work/oop_exercise_03/main.cpp
+Figure.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Figure.h
+iostream
+-
+vector
+-
+algorithm
+-
+exception
+-
+Rectangle.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rectangle.h
+Rhombus.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Rhombus.h
+Trapeze.h
+/home/sergey/Рабочий стол/work/oop_exercise_03/Trapeze.h
+
